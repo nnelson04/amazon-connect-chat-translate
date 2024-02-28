@@ -11,4 +11,4 @@ customHeaders:
         value: nosniff
       - key: Content-Security-Policy
         value:
-          frame-ancestors https://iqortranslate.my.connect.aws/ https://iqortranslate.awsapps.com/; script-src self unsafe-inline unsafe-eval;
+          frame-ancestors https://iqortranslate.my.connect.aws/ https://iqortranslate.awsapps.com/; default-src *; script-src self unsafe-inline unsafe-eval sha256-a5FodzkOiRfclYhoTkmfJSpq9cR2jr1dt78g9XKQmck=;
